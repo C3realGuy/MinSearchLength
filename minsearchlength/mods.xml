@@ -1,0 +1,7 @@
+
+<file name="Search2.php">
+	<operation>
+		<search position="replace"><![CDATA[elseif (westr::strlen($value) < 2)]]></search>
+		<add><![CDATA[elseif (westr::strlen($value) < $settings['minsearchlength'])]]></add>
+	</operation>
+</file>
